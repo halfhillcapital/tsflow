@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { Node, Flow, chain, branch } from "@yae/graph";
+import { Node, Flow, chain, branch } from "@tsflow";
 
 type SharedCalc = {
   result: number;

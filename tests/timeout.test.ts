@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { Node, Flow, chain } from "@yae/graph";
+import { Node, Flow, chain } from "@tsflow";
 
 type SharedState = {
   result: number;
